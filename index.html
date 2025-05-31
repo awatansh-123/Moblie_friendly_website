@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Gallery </h1>
+  </header>
+
+  <main class="gallery-container">
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://picsum.photos/id/1015/600/400" alt="Nature 1" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/id/1016/600/400" alt="Nature 2" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/id/1025/600/400" alt="Nature 3" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/id/1035/600/400" alt="Nature 4" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/id/1045/600/400" alt="Nature 5" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://picsum.photos/id/1065/600/400" alt="Nature 6" />
+      </div>
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="closeBtn">&times;</span>
+    <img id="lightboxImg" src="" alt="Enlarged image" />
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Gallery. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
